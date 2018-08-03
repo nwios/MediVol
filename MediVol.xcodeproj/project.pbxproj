@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		C994E31221126705003C3897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E31121126705003C3897 /* AppDelegate.swift */; };
-		C994E31421126705003C3897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E31321126705003C3897 /* ViewController.swift */; };
 		C994E31721126705003C3897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994E31521126705003C3897 /* Main.storyboard */; };
 		C994E31921126707003C3897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C994E31821126707003C3897 /* Assets.xcassets */; };
 		C994E31C21126707003C3897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994E31A21126707003C3897 /* LaunchScreen.storyboard */; };
+		C994E32421128D6F003C3897 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E32321128D6F003C3897 /* BaseTabBarController.swift */; };
+		C994E32821129014003C3897 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E32721129014003C3897 /* Profile.swift */; };
+		C994E32E2112A5EF003C3897 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = C994E32D2112A5EF003C3897 /* loading.json */; };
+		C994E3322112A866003C3897 /* stars.json in Resources */ = {isa = PBXBuildFile; fileRef = C994E3312112A866003C3897 /* stars.json */; };
+		C994E3342112AB1F003C3897 /* fingerprint.json in Resources */ = {isa = PBXBuildFile; fileRef = C994E3332112AB1F003C3897 /* fingerprint.json */; };
+		C994E3382113848F003C3897 /* BarCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E3372113848F003C3897 /* BarCodeScanner.swift */; };
+		C994E33A21138C16003C3897 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C994E33921138C16003C3897 /* GoogleService-Info.plist */; };
+		C994E33C211390E9003C3897 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = C994E33B211390E9003C3897 /* animation.json */; };
+		C994E3482113DE6C003C3897 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = C994E3472113DE6C003C3897 /* success.json */; };
+		F8861300C62D9DC0318A5A6B /* Pods_MediVol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4363E3E97FB28E68C4759BAE /* Pods_MediVol.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C81E7E9DB4AAC19DE1A8872 /* Pods-MediVol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediVol.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediVol/Pods-MediVol.release.xcconfig"; sourceTree = "<group>"; };
+		1FA873EFA90B55E2FFB873A1 /* Pods-MediVol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediVol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediVol/Pods-MediVol.debug.xcconfig"; sourceTree = "<group>"; };
+		4363E3E97FB28E68C4759BAE /* Pods_MediVol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediVol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C994E30E21126705003C3897 /* MediVol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediVol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C994E31121126705003C3897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C994E31321126705003C3897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C994E31621126705003C3897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C994E31821126707003C3897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C994E31B21126707003C3897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C994E31D21126707003C3897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C994E32321128D6F003C3897 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		C994E32721129014003C3897 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C994E32D2112A5EF003C3897 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		C994E3312112A866003C3897 /* stars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stars.json; sourceTree = "<group>"; };
+		C994E3332112AB1F003C3897 /* fingerprint.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fingerprint.json; sourceTree = "<group>"; };
+		C994E3372113848F003C3897 /* BarCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanner.swift; sourceTree = "<group>"; };
+		C994E33921138C16003C3897 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C994E33B211390E9003C3897 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		C994E3472113DE6C003C3897 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8861300C62D9DC0318A5A6B /* Pods_MediVol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033F2C55067E19A6ACB98656 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FA873EFA90B55E2FFB873A1 /* Pods-MediVol.debug.xcconfig */,
+				0C81E7E9DB4AAC19DE1A8872 /* Pods-MediVol.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1090133D59646D18298195B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4363E3E97FB28E68C4759BAE /* Pods_MediVol.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C994E30521126705003C3897 = {
 			isa = PBXGroup;
 			children = (
 				C994E31021126705003C3897 /* MediVol */,
 				C994E30F21126705003C3897 /* Products */,
+				033F2C55067E19A6ACB98656 /* Pods */,
+				1090133D59646D18298195B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				C994E31121126705003C3897 /* AppDelegate.swift */,
-				C994E31321126705003C3897 /* ViewController.swift */,
+				C994E32321128D6F003C3897 /* BaseTabBarController.swift */,
+				C994E3372113848F003C3897 /* BarCodeScanner.swift */,
+				C994E32721129014003C3897 /* Profile.swift */,
 				C994E31521126705003C3897 /* Main.storyboard */,
 				C994E31821126707003C3897 /* Assets.xcassets */,
 				C994E31A21126707003C3897 /* LaunchScreen.storyboard */,
 				C994E31D21126707003C3897 /* Info.plist */,
+				C994E33921138C16003C3897 /* GoogleService-Info.plist */,
+				C994E32D2112A5EF003C3897 /* loading.json */,
+				C994E3332112AB1F003C3897 /* fingerprint.json */,
+				C994E33B211390E9003C3897 /* animation.json */,
+				C994E3312112A866003C3897 /* stars.json */,
+				C994E3472113DE6C003C3897 /* success.json */,
 			);
 			path = MediVol;
 			sourceTree = "<group>";
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C994E32021126707003C3897 /* Build configuration list for PBXNativeTarget "MediVol" */;
 			buildPhases = (
+				A04AE4C39318613B5803616B /* [CP] Check Pods Manifest.lock */,
 				C994E30A21126705003C3897 /* Sources */,
 				C994E30B21126705003C3897 /* Frameworks */,
 				C994E30C21126705003C3897 /* Resources */,
+				0876D99AA128D6C11C853E88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,7 +172,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C994E3342112AB1F003C3897 /* fingerprint.json in Resources */,
+				C994E33C211390E9003C3897 /* animation.json in Resources */,
+				C994E32E2112A5EF003C3897 /* loading.json in Resources */,
+				C994E3482113DE6C003C3897 /* success.json in Resources */,
 				C994E31C21126707003C3897 /* LaunchScreen.storyboard in Resources */,
+				C994E33A21138C16003C3897 /* GoogleService-Info.plist in Resources */,
+				C994E3322112A866003C3897 /* stars.json in Resources */,
 				C994E31921126707003C3897 /* Assets.xcassets in Resources */,
 				C994E31721126705003C3897 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +186,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0876D99AA128D6C11C853E88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MediVol/Pods-MediVol-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediVol/Pods-MediVol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04AE4C39318613B5803616B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediVol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C994E30A21126705003C3897 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C994E31421126705003C3897 /* ViewController.swift in Sources */,
+				C994E3382113848F003C3897 /* BarCodeScanner.swift in Sources */,
 				C994E31221126705003C3897 /* AppDelegate.swift in Sources */,
+				C994E32821129014003C3897 /* Profile.swift in Sources */,
+				C994E32421128D6F003C3897 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,17 +383,22 @@
 		};
 		C994E32121126707003C3897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA873EFA90B55E2FFB873A1 /* Pods-MediVol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWXB64ZKMM;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 57Q6TZE6D6;
 				INFOPLIST_FILE = MediVol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.nawaf.MediVol;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajj.hackthon.MediVol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5c9c5ed8-0802-4eda-9550-77b20a5c7ede";
+				PROVISIONING_PROFILE_SPECIFIER = MediPP;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,17 +406,22 @@
 		};
 		C994E32221126707003C3897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C81E7E9DB4AAC19DE1A8872 /* Pods-MediVol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWXB64ZKMM;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 57Q6TZE6D6;
 				INFOPLIST_FILE = MediVol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.nawaf.MediVol;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajj.hackthon.MediVol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5c9c5ed8-0802-4eda-9550-77b20a5c7ede";
+				PROVISIONING_PROFILE_SPECIFIER = MediPP;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
